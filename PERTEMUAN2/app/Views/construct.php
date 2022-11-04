@@ -17,10 +17,8 @@ class dataDiri {
     }
 }
 
-// Pass both parameters.
 $p1 = new dataDiri("Muhammad Muslim Abdul Jabbaar", "217200035");
-// Pass only the required parameter. $y will take its default value of 0.
-$p2 = new dataDiri("M Husni Ramadhan", "217200034");
+$p2 = new dataDiri("MMuslimAbdulJ", "217200035");
 
 $p1->tampil();
 $p2->tampil();

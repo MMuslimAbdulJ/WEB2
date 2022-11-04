@@ -24,6 +24,10 @@ class digiCom extends Komputer {
 
 }
 
-$komp = new digiCom();
-$komp->cekKomponen("Asus", "RTX 3060");
-echo $komp->cekJumlah("25");
+$komp1 = new digiCom();
+$komp1->cekKomponen("Asus", "RTX 3060");
+echo $komp1->cekJumlah("25");
+
+$komp2 = new digiCom();
+$komp2->cekKomponen("MuslimCOMP", "Intel Core i9-12000k");
+echo $komp2->cekJumlah("15");

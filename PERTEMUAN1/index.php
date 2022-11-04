@@ -11,10 +11,11 @@
         }
     }
 
-    $menampilkan = new Perpustakaan();
-
-    $menampilkan->tampil("Harry Potter and the Philosopher's Stone", "JK. Rowling", "Bloomsbury");
-
-    print_r($menampilkan);
+    $menampilkan1 = new Perpustakaan();
+    $menampilkan1->tampil("Harry Potter and the Philosopher's Stone", "JK. Rowling", "Bloomsbury");
+    print_r($menampilkan1);
+    $menampilkan2 = new Perpustakaan();
+    $menampilkan2->tampil("Buku PHP Dasar", "M Muslim Abdul J", "Gramedia");
+    print_r($menampilkan2);
 
 ?>
